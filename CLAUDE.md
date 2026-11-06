@@ -19,7 +19,7 @@ Proyecto final de un curso de **Inteligencia Artificial / Sistemas Expertos**. I
 
 **Asignación automática de horarios de clases** en una escuela/facultad.
 
-**Problema detectado (redactar con datos reales de la escuela):** la creación manual de horarios genera traslapes de maestros, salones saturados, huecos excesivos para los alumnos y mucho tiempo invertido por coordinación. Se busca un sistema que genere horarios válidos y de buena calidad de forma automática, explicando sus decisiones.
+**Problema detectado (caso ilustrativo ficticio en docs/problema.md; no se usan datos reales por privacidad):** la creación manual de horarios genera traslapes de maestros, salones saturados, huecos excesivos para los alumnos y mucho tiempo invertido por coordinación. Se busca un sistema que genere horarios válidos y de buena calidad de forma automática, explicando sus decisiones.
 
 ### Entradas
 - Lista de **materias/grupos** (horas por semana, tipo: teoría/laboratorio).
@@ -99,7 +99,7 @@ proyecto-horarios/
 
 ## 6. Plan de trabajo (marcar al avanzar)
 
-- [x] 1. Redactar el problema detectado con datos reales de la escuela
+- [x] 1. Redactar el problema detectado (caso ilustrativo ficticio, por privacidad)
 - [x] 2. Definir modelos de datos y cargar `ejemplo_pequeno.json`
 - [x] 3. Implementar base de conocimiento (restricciones duras y suaves)
 - [x] 4. Implementar backtracking exhaustivo + contador de nodos
@@ -115,7 +115,7 @@ proyecto-horarios/
 - [~] 14. Reporte final, presentación oral y **video de ejecución y explicación**
 - [ ] 15. Anexar código y liga del video
 
-> **Estado actual (2026-11-06):** Pasos 1-13 terminados; 37 pruebas pasan. Paso 14: reporte (docs/reporte.md) y guion de exposición/video (docs/guion_exposicion.md) listos; falta grabar el video y agregar datos reales de la escuela en docs/problema.md. Paso 15: falta subir a GitHub y anexar la liga del video. Python 3.14 (`py`), interfaz Streamlit (`py -m streamlit run app.py`). networkx no se usa (el árbol se dibuja con matplotlib).
+> **Estado actual (2026-11-06):** Pasos 1-13 terminados; 38 pruebas pasan. Paso 14: reporte (docs/reporte.md) y guion de exposición/video (docs/guion_exposicion.md) listos; falta grabar el video (lo hace el equipo). Paso 15: el repo se entrega como zip para que un compañero lo suba a su GitHub; falta anexar la liga del video. Python 3.14 (`py`), interfaz Streamlit (`py -m streamlit run app.py`). networkx no se usa (el árbol se dibuja con matplotlib).
 
 ## 7. Cómo quiero que trabaje Claude
 

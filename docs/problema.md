@@ -9,7 +9,19 @@ En muchas escuelas, los horarios de clase los arma a mano la coordinación acad�
 - **Da horarios de mala calidad:** los alumnos tienen huecos largos entre clases, una materia queda acumulada en un solo día y la carga de los maestros queda desbalanceada.
 - **No se explica:** cuando alguien pregunta por qué una clase quedó en cierto lugar, no hay una justificación clara.
 
-> **[COMPLETAR con datos de la escuela]** Por ahora el proyecto usa datos ficticios. Para la entrega conviene agregar 2 o 3 datos reales, por ejemplo: número de grupos y maestros de la facultad, cuánto tarda la coordinación en armar el horario y un ejemplo de conflicto que haya ocurrido.
+### Caso ilustrativo
+
+> Por privacidad no usamos datos de una escuela real. El siguiente caso es **ficticio**, pero refleja una situación típica de una preparatoria o facultad mediana.
+
+La *Preparatoria Técnica Valle Norte* (nombre inventado) tiene:
+
+- **18 grupos** repartidos en 3 semestres, **42 maestros** (la mitad de asignatura, con disponibilidad limitada) y **24 salones**, de los cuales 4 son laboratorios de cómputo.
+- Unas **620 clases de 1 hora por semana** que hay que acomodar en 5 días × 7 bloques.
+- La coordinación tarda **unas 3 semanas** cada semestre en armar el horario en Excel, y en las dos primeras semanas de clases se hacen **alrededor de 15 correcciones**.
+- **Ejemplo de conflicto:** el lunes a las 10:00 dos grupos de 3.er semestre quedaron asignados al mismo laboratorio de cómputo. Uno de ellos tuvo que dar la práctica en un aula sin computadoras y se perdió la sesión (violación de las reglas R2 y R4).
+- **Ejemplo de mala calidad:** un grupo tenía clase de 7:00 a 8:00 y la siguiente hasta las 12:00, con 3 horas libres en medio (regla suave S1).
+
+Con esos números el espacio de búsqueda es enorme. Por eso el proyecto prueba los algoritmos en tres tamaños: mini (5 clases), pequeño (10) y mediano (62, una semana completa de 6 grupos).
 
 ## 2. Objetivo del sistema experto
 

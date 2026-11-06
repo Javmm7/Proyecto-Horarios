@@ -12,7 +12,7 @@
 
 | # | Diapositiva | Qué decir (idea central) | Qué mostrar |
 |---|---|---|---|
-| 1 | **Problema** | "Hacer los horarios a mano tarda días y genera traslapes, salones saturados y huecos para los alumnos." | Datos de la escuela (completar en `docs/problema.md`) |
+| 1 | **Problema** | "Hacer los horarios a mano tarda días y genera traslapes, salones saturados y huecos para los alumnos." | Caso ilustrativo de `docs/problema.md` (3 semanas en Excel, choque en laboratorio) |
 | 2 | **Por qué es difícil** | "Incluso con 10 clases hay 2.5 × 10¹⁴ combinaciones. No se pueden revisar todas." | La fórmula de `problema.md` |
 | 3 | **Sistema experto** | Base de hechos, base de conocimiento (R1–R6, S1–S6), motor de inferencia, explicación y aprendizaje | Tabla de arquitectura del reporte; pestaña 1 de la app |
 | 4 | **Árbol de decisión** | "Cada nivel es una clase; cada rama, una opción. Lo rojo se poda por una regla." Mencionar los 4 recorridos | `docs/arbol_decision.png`; pestaña 4 de la app |

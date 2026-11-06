@@ -38,7 +38,7 @@ py -m src.main explicar --clase 1A-MAT-1                   # ¿por qué se asign
 py -m src.main flujo                                       # flujo máximo maestro-materia
 py -m src.main aprender                                    # simulación del aprendizaje
 py -m src.main experimentos                                # tablas y gráficas en resultados/ (~1 min)
-py -m unittest discover tests -v                           # 37 pruebas
+py -m unittest discover tests -v                           # 38 pruebas
 ```
 
 Algoritmos: `exhaustiva`, `exhaustiva-optima`, `bfs`, `mrv`, `mrv-fc`, `flujo-mrv`, `greedy`, `a-estrella`, `colina`, `recocido`.
