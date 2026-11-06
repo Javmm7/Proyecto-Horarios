@@ -1,0 +1,35 @@
+{
+  "nombre": "Ejemplo mini (datos ficticios, la búsqueda exhaustiva sí termina)",
+  "dias": ["Lunes", "Martes"],
+  "horas": [7, 8, 9],
+
+  "materias": [
+    {"id": "MAT", "nombre": "Matemáticas",  "horas_semana": 2, "tipo": "teoria"},
+    {"id": "PRO", "nombre": "Programación", "horas_semana": 1, "tipo": "laboratorio"}
+  ],
+
+  "grupos": [
+    {"id": "1A", "alumnos": 25, "materias": ["MAT", "PRO"]},
+    {"id": "1B", "alumnos": 20, "materias": ["MAT"]}
+  ],
+
+  "maestros": [
+    {
+      "id": "M1", "nombre": "Ana Torres",
+      "materias": ["MAT"],
+      "max_horas_dia": 2, "max_horas_semana": 3,
+      "preferencias": {"Lunes": [8, 9]}
+    },
+    {
+      "id": "M2", "nombre": "Luis Rocha",
+      "materias": ["MAT", "PRO"],
+      "max_horas_dia": 2, "max_horas_semana": 3,
+      "disponibilidad": {"Lunes": [9], "Martes": [7, 8, 9]}
+    }
+  ],
+
+  "salones": [
+    {"id": "A101", "capacidad": 30, "tipo": "aula"},
+    {"id": "LAB1", "capacidad": 30, "tipo": "laboratorio"}
+  ]
+}

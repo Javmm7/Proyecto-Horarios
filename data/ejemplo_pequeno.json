@@ -1,0 +1,46 @@
+{
+  "nombre": "Ejemplo pequeño (datos ficticios)",
+  "dias": ["Lunes", "Martes", "Miercoles"],
+  "horas": [7, 8, 9, 10],
+
+  "materias": [
+    {"id": "MAT", "nombre": "Matemáticas",  "horas_semana": 2, "tipo": "teoria"},
+    {"id": "PRO", "nombre": "Programación", "horas_semana": 2, "tipo": "laboratorio"},
+    {"id": "FIS", "nombre": "Física",       "horas_semana": 1, "tipo": "teoria"}
+  ],
+
+  "grupos": [
+    {"id": "1A", "alumnos": 30, "materias": ["MAT", "PRO"]},
+    {"id": "1B", "alumnos": 25, "materias": ["MAT", "FIS"]},
+    {"id": "2A", "alumnos": 20, "materias": ["PRO", "FIS"]}
+  ],
+
+  "maestros": [
+    {
+      "id": "M1", "nombre": "Ana Torres",
+      "materias": ["MAT", "FIS"],
+      "max_horas_dia": 3, "max_horas_semana": 6,
+      "disponibilidad": {"Lunes": [7, 8, 9, 10], "Martes": [7, 8, 9, 10], "Miercoles": [7, 8]},
+      "preferencias": {"Lunes": [8, 9]}
+    },
+    {
+      "id": "M2", "nombre": "Luis Rocha",
+      "materias": ["PRO"],
+      "max_horas_dia": 2, "max_horas_semana": 4,
+      "disponibilidad": {"Lunes": [9, 10], "Martes": [7, 8, 9, 10], "Miercoles": [7, 8, 9, 10]}
+    },
+    {
+      "id": "M3", "nombre": "Carmen Vela",
+      "materias": ["MAT", "PRO"],
+      "max_horas_dia": 3, "max_horas_semana": 5,
+      "disponibilidad": {"Martes": [7, 8, 9, 10], "Miercoles": [7, 8, 9, 10]},
+      "preferencias": {"Miercoles": [7, 8]}
+    }
+  ],
+
+  "salones": [
+    {"id": "A101", "capacidad": 35, "tipo": "aula"},
+    {"id": "A102", "capacidad": 25, "tipo": "aula"},
+    {"id": "LAB1", "capacidad": 30, "tipo": "laboratorio"}
+  ]
+}

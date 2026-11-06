@@ -1,0 +1,32 @@
+digraph Arbol {
+  node [shape=box, style=filled, fontsize=10];
+  n0 [label="Horario vacío", fillcolor=lightblue];
+  n1 [label="1A-MAT-1 -> Lunes 7:00, A101, M1", fillcolor=white];
+  n2 [label="1A-MAT-2 -> Lunes 7:00, A101, M1\n(poda R1)", fillcolor=lightcoral];
+  n3 [label="1A-MAT-2 -> Lunes 7:00, A101, M2\n(poda R2)", fillcolor=lightcoral];
+  n4 [label="1A-MAT-2 -> Lunes 7:00, LAB1, M1\n(poda R1)", fillcolor=lightcoral];
+  n5 [label="1A-MAT-2 -> Lunes 7:00, LAB1, M2\n(poda R3)", fillcolor=lightcoral];
+  n6 [label="1A-MAT-2 -> Lunes 8:00, A101, M1", fillcolor=white];
+  n7 [label="1A-PRO-1 -> Lunes 7:00, A101, M1\n(poda R1)", fillcolor=lightcoral];
+  n8 [label="1A-PRO-1 -> Lunes 7:00, A101, M2\n(poda R2)", fillcolor=lightcoral];
+  n9 [label="1A-PRO-1 -> Lunes 7:00, LAB1, M1\n(poda R1)", fillcolor=lightcoral];
+  n10 [label="1A-PRO-1 -> Lunes 7:00, LAB1, M2\n(poda R3)", fillcolor=lightcoral];
+  n11 [label="1A-PRO-1 -> Lunes 8:00, A101, M1\n(poda R1)", fillcolor=lightcoral];
+  n12 [label="1A-PRO-1 -> Lunes 8:00, A101, M2\n(poda R2)", fillcolor=lightcoral];
+  n13 [label="1A-PRO-1 -> Lunes 8:00, LAB1, M1\n(poda R1)", fillcolor=lightcoral];
+  n14 [label="1A-PRO-1 -> Lunes 8:00, LAB1, M2\n(poda R3)", fillcolor=lightcoral];
+  n0 -> n1;
+  n1 -> n2;
+  n1 -> n3;
+  n1 -> n4;
+  n1 -> n5;
+  n1 -> n6;
+  n6 -> n7;
+  n6 -> n8;
+  n6 -> n9;
+  n6 -> n10;
+  n6 -> n11;
+  n6 -> n12;
+  n6 -> n13;
+  n6 -> n14;
+}

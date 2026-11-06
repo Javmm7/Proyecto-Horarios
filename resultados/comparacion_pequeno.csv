@@ -1,0 +1,11 @@
+algoritmo,solución,costo,nodos,verificaciones,tiempo (s),exploró todo
+Exhaustiva DFS (1a solución),sí,12.0,10,326,0.0022,no
+Exhaustiva DFS (óptimo),sí,9.0,100000,1575302,7.5174,no
+Exhaustiva BFS (óptimo),no,-,200000,1009779,2.3221,no
+MRV estático,sí,5.33,10,220,0.0018,no
+MRV + forward checking,sí,5.33,10,1346,0.0041,no
+Flujo máximo + MRV + forward checking,sí,7.0,10,890,0.0026,no
+Greedy,sí,7.0,10,220,0.0043,no
+A* (haz 100),sí,4.33,1654,2300350,8.8936,no
+Ascenso de colina,sí,4.33,3543,60213,0.3926,no
+Recocido simulado,sí,4.33,3670,59064,0.3989,no

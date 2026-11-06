@@ -1,0 +1,24 @@
+digraph Diagnostico {
+  node [fontsize=10];
+  d0 [label="¿Las horas de cada grupo caben en los bloques de la semana?", shape=diamond, style=filled, fillcolor=lightyellow];
+  d1 [label="¿Cada clase tiene al menos un salón del tipo y tamaño correctos?", shape=diamond, style=filled, fillcolor=lightyellow];
+  d2 [label="¿Las horas de salón (aulas y laboratorios) alcanzan?", shape=diamond, style=filled, fillcolor=lightyellow];
+  d3 [label="¿Cada materia tiene al menos un maestro que la imparta?", shape=diamond, style=filled, fillcolor=lightyellow];
+  d4 [label="¿El flujo máximo cubre todas las horas de clase?", shape=diamond, style=filled, fillcolor=lightyellow];
+  d5 [label="Posiblemente factible: ejecutar la búsqueda heurística.", shape=box, style=filled, fillcolor=palegreen];
+  d6 [label="No factible: faltan horas de maestro (contratar o ampliar disponibilidad).", shape=box, style=filled, fillcolor=lightcoral];
+  d4 -> d5 [label="sí"];
+  d4 -> d6 [label="no"];
+  d7 [label="No factible: hay materias sin maestro.", shape=box, style=filled, fillcolor=lightcoral];
+  d3 -> d4 [label="sí"];
+  d3 -> d7 [label="no"];
+  d8 [label="No factible: faltan salones (agregar salones o bloques).", shape=box, style=filled, fillcolor=lightcoral];
+  d2 -> d3 [label="sí"];
+  d2 -> d8 [label="no"];
+  d9 [label="No factible: algún grupo no cabe en ningún salón adecuado.", shape=box, style=filled, fillcolor=lightcoral];
+  d1 -> d2 [label="sí"];
+  d1 -> d9 [label="no"];
+  d10 [label="No factible: hay grupos con más horas que bloques disponibles.", shape=box, style=filled, fillcolor=lightcoral];
+  d0 -> d1 [label="sí"];
+  d0 -> d10 [label="no"];
+}
