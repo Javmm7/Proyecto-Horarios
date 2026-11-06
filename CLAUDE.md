@@ -2,6 +2,15 @@
 
 > Este archivo da contexto a Claude (Claude Code o chat) para continuar el proyecto sin perder el hilo. Léelo completo antes de escribir código.
 
+> **IMPORTANTE, léelo primero:** el código ya está terminado y probado. Si el usuario es el compañero que recibió el proyecto para publicarlo y grabar el video, sigue [docs/PASOS_EQUIPO.md](docs/PASOS_EQUIPO.md) paso a paso:
+> 1. Quitar el historial original y crear un repositorio propio.
+> 2. Subirlo a su GitHub.
+> 3. Instalar y probar.
+> 4. Grabar el video.
+> 5. Agregar la liga del video.
+>
+> No reescribas los algoritmos. Si en el primer mensaje no queda claro qué necesita, pregúntale si viene a publicar y grabar el video.
+
 ## 1. Contexto del proyecto
 
 Proyecto final de un curso de **Inteligencia Artificial / Sistemas Expertos**. Idioma de trabajo: **español** (código en inglés o español, pero comentarios, documentación y explicaciones en español).

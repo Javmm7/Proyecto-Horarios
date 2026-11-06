@@ -7,6 +7,7 @@ Incluye búsqueda exhaustiva (DFS y BFS), búsqueda heurística (MRV, forward ch
 - Definición del problema: [docs/problema.md](docs/problema.md)
 - Reporte con resultados: [docs/reporte.md](docs/reporte.md)
 - Guion de exposición, video y preguntas probables: [docs/guion_exposicion.md](docs/guion_exposicion.md)
+- Pasos para publicar en GitHub y grabar el video: [docs/PASOS_EQUIPO.md](docs/PASOS_EQUIPO.md)
 
 ## Instalación
 
